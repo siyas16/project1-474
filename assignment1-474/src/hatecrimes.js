@@ -1,4 +1,4 @@
- export default [
+export default [
   {
     case_number: "16000456",
     date: "2016-01-04",
@@ -31,7 +31,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16001278",
@@ -65,7 +65,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16004522",
@@ -99,7 +99,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16005962",
@@ -133,7 +133,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16005900",
@@ -167,7 +167,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "F",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16006866",
@@ -201,7 +201,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16007286",
@@ -235,7 +235,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16008581",
@@ -269,7 +269,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16008340",
@@ -303,7 +303,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16008751",
@@ -337,7 +337,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16009905",
@@ -371,7 +371,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16013490",
@@ -405,7 +405,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16015895",
@@ -439,7 +439,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16017576",
@@ -473,7 +473,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16018078",
@@ -507,7 +507,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16020160",
@@ -541,7 +541,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16021550",
@@ -575,7 +575,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16023023",
@@ -609,7 +609,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16023668",
@@ -643,7 +643,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16024587",
@@ -677,7 +677,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16025303",
@@ -711,7 +711,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16026441",
@@ -745,7 +745,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16025550",
@@ -779,7 +779,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16028219",
@@ -813,7 +813,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16028646",
@@ -847,7 +847,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16029933",
@@ -881,7 +881,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16029806",
@@ -915,7 +915,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16033533",
@@ -949,7 +949,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16032832",
@@ -983,7 +983,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16033890",
@@ -1017,7 +1017,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16036850",
@@ -1051,7 +1051,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16037460",
@@ -1085,7 +1085,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16039755",
@@ -1119,7 +1119,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16041342",
@@ -1153,7 +1153,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16046232",
@@ -1187,7 +1187,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16044681",
@@ -1221,7 +1221,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16044826",
@@ -1255,7 +1255,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16046131",
@@ -1289,7 +1289,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16047409",
@@ -1323,7 +1323,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16046634",
@@ -1357,7 +1357,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16046655",
@@ -1391,7 +1391,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16046909",
@@ -1425,7 +1425,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16047848",
@@ -1459,7 +1459,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16048134",
@@ -1493,7 +1493,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16048288",
@@ -1527,7 +1527,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16049989",
@@ -1561,7 +1561,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16050641",
@@ -1595,7 +1595,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "16052116",
@@ -1629,7 +1629,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17034249",
@@ -1663,7 +1663,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17000639",
@@ -1697,7 +1697,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17001022",
@@ -1731,7 +1731,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17004008",
@@ -1765,7 +1765,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17004125",
@@ -1799,7 +1799,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17004273",
@@ -1833,7 +1833,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17005240",
@@ -1867,7 +1867,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17006219",
@@ -1901,7 +1901,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17007116",
@@ -1935,7 +1935,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17007667",
@@ -1969,7 +1969,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17008023",
@@ -2003,7 +2003,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17008509",
@@ -2037,7 +2037,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17009294",
@@ -2071,7 +2071,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17010162",
@@ -2105,7 +2105,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17010421",
@@ -2139,7 +2139,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17010649",
@@ -2173,7 +2173,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17013196",
@@ -2207,7 +2207,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17013704",
@@ -2241,7 +2241,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17015184",
@@ -2275,7 +2275,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17014768",
@@ -2309,7 +2309,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17015573",
@@ -2343,7 +2343,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17016020",
@@ -2377,7 +2377,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17015940",
@@ -2411,7 +2411,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17017611",
@@ -2445,7 +2445,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17019690",
@@ -2479,7 +2479,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17019750",
@@ -2513,7 +2513,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "F",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17022660",
@@ -2547,7 +2547,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17023023",
@@ -2581,7 +2581,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17024121",
@@ -2615,7 +2615,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17025240",
@@ -2649,7 +2649,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17025352",
@@ -2683,7 +2683,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17026690",
@@ -2717,7 +2717,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17027606",
@@ -2751,7 +2751,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17034178",
@@ -2785,7 +2785,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17034795",
@@ -2819,7 +2819,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17036122",
@@ -2853,7 +2853,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17036619",
@@ -2887,7 +2887,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17036944",
@@ -2921,7 +2921,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17039629",
@@ -2955,7 +2955,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17041515",
@@ -2989,7 +2989,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "17043828",
@@ -3023,7 +3023,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18000604",
@@ -3057,7 +3057,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18002415",
@@ -3091,7 +3091,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18003081",
@@ -3125,7 +3125,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "F",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18003320",
@@ -3159,7 +3159,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18003728",
@@ -3193,7 +3193,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "F",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18005199",
@@ -3227,7 +3227,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18004972",
@@ -3261,7 +3261,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18006221",
@@ -3295,7 +3295,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18006528",
@@ -3329,7 +3329,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18007157",
@@ -3363,7 +3363,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18010401",
@@ -3397,7 +3397,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18011350",
@@ -3431,7 +3431,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18011357",
@@ -3465,7 +3465,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18011970",
@@ -3499,7 +3499,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18012970",
@@ -3533,7 +3533,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18013576",
@@ -3567,7 +3567,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18015263",
@@ -3601,7 +3601,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18015995",
@@ -3635,7 +3635,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18017632",
@@ -3669,7 +3669,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18017971",
@@ -3703,7 +3703,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18018617",
@@ -3737,7 +3737,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18019813",
@@ -3771,7 +3771,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18022404",
@@ -3805,7 +3805,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18023073",
@@ -3839,7 +3839,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18024152",
@@ -3873,7 +3873,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18025371",
@@ -3907,7 +3907,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18027604",
@@ -3941,7 +3941,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18029588",
@@ -3975,7 +3975,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18030114",
@@ -4009,7 +4009,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18030221",
@@ -4043,7 +4043,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18031253",
@@ -4077,7 +4077,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18031831",
@@ -4111,7 +4111,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18032153",
@@ -4145,7 +4145,7 @@
     victim_race_2: "H",
     victim_sex_0: "M",
     victim_sex_1: "M",
-    victim_sex_2: "F"
+    victim_sex_2: "F",
   },
   {
     case_number: "18032111",
@@ -4179,7 +4179,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18032467",
@@ -4213,7 +4213,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18034424",
@@ -4247,7 +4247,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18035021",
@@ -4281,7 +4281,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18037683",
@@ -4315,7 +4315,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18038086",
@@ -4349,7 +4349,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18038864",
@@ -4383,7 +4383,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "18039670",
@@ -4417,7 +4417,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19000321",
@@ -4451,7 +4451,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19001639",
@@ -4485,7 +4485,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19600660",
@@ -4519,7 +4519,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19004291",
@@ -4553,7 +4553,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "F",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19005259",
@@ -4587,7 +4587,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19006514",
@@ -4621,7 +4621,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "F",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19008983",
@@ -4655,7 +4655,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19007782",
@@ -4689,7 +4689,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19012076",
@@ -4723,7 +4723,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19017802",
@@ -4757,7 +4757,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19017876",
@@ -4791,7 +4791,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19018299",
@@ -4825,7 +4825,7 @@
     victim_race_2: "B",
     victim_sex_0: "F",
     victim_sex_1: "F",
-    victim_sex_2: "M"
+    victim_sex_2: "M",
   },
   {
     case_number: "19019040",
@@ -4859,7 +4859,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19019053",
@@ -4893,7 +4893,7 @@
     victim_race_2: "",
     victim_sex_0: "-",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19019302",
@@ -4927,7 +4927,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19020509",
@@ -4961,7 +4961,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19027273",
@@ -4995,7 +4995,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19024491",
@@ -5029,7 +5029,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "F",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19025504",
@@ -5063,7 +5063,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19025496",
@@ -5097,7 +5097,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19025834",
@@ -5131,7 +5131,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19025966",
@@ -5165,7 +5165,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19028502",
@@ -5199,7 +5199,7 @@
     victim_race_2: "H",
     victim_sex_0: "M",
     victim_sex_1: "M",
-    victim_sex_2: "M"
+    victim_sex_2: "M",
   },
   {
     case_number: "19028668",
@@ -5233,7 +5233,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19038601",
@@ -5267,7 +5267,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19048808",
@@ -5301,7 +5301,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19049530",
@@ -5335,7 +5335,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19052150",
@@ -5369,7 +5369,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19055750",
@@ -5403,7 +5403,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "19058413",
@@ -5437,7 +5437,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20000486",
@@ -5471,7 +5471,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "F",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20000531",
@@ -5505,7 +5505,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20001478",
@@ -5539,7 +5539,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20001512",
@@ -5573,7 +5573,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20013284",
@@ -5607,7 +5607,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20016481",
@@ -5641,7 +5641,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20019662",
@@ -5675,7 +5675,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20018993",
@@ -5709,7 +5709,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20020232",
@@ -5743,7 +5743,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20020622",
@@ -5777,7 +5777,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20028824",
@@ -5811,7 +5811,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20029821",
@@ -5845,7 +5845,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20032425",
@@ -5879,7 +5879,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20032272",
@@ -5913,7 +5913,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20035897",
@@ -5947,7 +5947,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20035966",
@@ -5981,7 +5981,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "F",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20036175",
@@ -6015,7 +6015,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20038279",
@@ -6049,7 +6049,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "F",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20043980",
@@ -6083,7 +6083,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20050547",
@@ -6117,7 +6117,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20051500",
@@ -6151,7 +6151,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20052847",
@@ -6185,7 +6185,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20054204",
@@ -6219,7 +6219,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20054787",
@@ -6253,7 +6253,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20056454",
@@ -6287,7 +6287,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "20063994",
@@ -6321,7 +6321,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21002105",
@@ -6355,7 +6355,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21002911",
@@ -6389,7 +6389,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21004084",
@@ -6423,7 +6423,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21005554",
@@ -6457,7 +6457,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21005611",
@@ -6491,7 +6491,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21009928",
@@ -6525,7 +6525,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21010123",
@@ -6559,7 +6559,7 @@
     victim_race_2: "W",
     victim_sex_0: "M",
     victim_sex_1: "M",
-    victim_sex_2: "F"
+    victim_sex_2: "F",
   },
   {
     case_number: "21011307",
@@ -6593,7 +6593,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21011861",
@@ -6627,7 +6627,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21014159",
@@ -6661,7 +6661,7 @@
     victim_race_2: "W",
     victim_sex_0: "M",
     victim_sex_1: "M",
-    victim_sex_2: "M"
+    victim_sex_2: "M",
   },
   {
     case_number: "21014439",
@@ -6695,7 +6695,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21014839",
@@ -6729,7 +6729,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21016826",
@@ -6763,7 +6763,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21017797",
@@ -6797,7 +6797,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "F",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21016748",
@@ -6831,7 +6831,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21017124",
@@ -6865,7 +6865,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21021221",
@@ -6899,7 +6899,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21022243",
@@ -6933,7 +6933,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21023215",
@@ -6967,7 +6967,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21023506",
@@ -7001,7 +7001,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21023843",
@@ -7035,7 +7035,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21024515",
@@ -7069,7 +7069,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21024446",
@@ -7103,7 +7103,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21025374",
@@ -7137,7 +7137,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21025529",
@@ -7171,7 +7171,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21026113",
@@ -7205,7 +7205,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21029244",
@@ -7239,7 +7239,7 @@
     victim_race_2: "",
     victim_sex_0: "",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21030261",
@@ -7273,7 +7273,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21032267",
@@ -7307,7 +7307,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21035205",
@@ -7341,7 +7341,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21036358",
@@ -7375,7 +7375,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "M",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21614797",
@@ -7409,7 +7409,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21042757",
@@ -7443,7 +7443,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21043319",
@@ -7477,7 +7477,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21043645",
@@ -7511,7 +7511,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21044849",
@@ -7545,7 +7545,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21047024",
@@ -7579,7 +7579,7 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21046858",
@@ -7613,7 +7613,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21047512",
@@ -7647,7 +7647,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21048517",
@@ -7681,7 +7681,7 @@
     victim_race_2: "",
     victim_sex_0: "M",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
   {
     case_number: "21049305",
@@ -7715,9 +7715,6 @@
     victim_race_2: "",
     victim_sex_0: "F",
     victim_sex_1: "",
-    victim_sex_2: ""
+    victim_sex_2: "",
   },
-  {
-    case_number: ""
-  }
 ];

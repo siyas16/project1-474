@@ -22,8 +22,17 @@ function App() {
     }
   });
 
+  crimes.forEach((crime) => {
+    if (!motivationTotal[`${crime.year}`] && crime.motivation == "Race") {
+      motivationTotal[`${crime.year}`] = 1;
+    } else if (crime.motivation == "Race") {
+      motivationTotal[`${crime.year}`] += 1;
+    }
+  });
+
   console.log(crimesTotal);
   console.log(allYears);
+  console.log(motivationTotal);
 
   const year = uniq(crimes.year);
 
@@ -41,9 +50,9 @@ function App() {
           const rectHeight = 10 * crimesTotal[num];
           return (
             <rect
-              x={30 + i * 50}
-              y={500 - rectHeight}
-              width={20}
+              x={50 + i * 50}
+              y={510 - rectHeight}
+              width={40}
               height={rectHeight}
               fill={"black"}
             />
@@ -51,17 +60,42 @@ function App() {
         })}
 
         {allYears.map((num, i) => {
+          const rectHeight = 10 * motivationTotal[num];
+          return (
+            <rect
+              x={50 + i * 50}
+              y={510 - rectHeight}
+              width={40}
+              height={rectHeight}
+              fill={"blue"}
+            />
+          );
+        })}
+
+        {allYears.map((num, i) => {
           const rectHeight = 10 * crimesTotal[num];
           return (
-            <text x={30 + i * 50} y={530} fill={"blue"}>
+            <text x={50 + i * 50} y={530} fill={"black"}>
               {" "}
               {num}{" "}
             </text>
           );
         })}
       </svg>
+
+      <p>
+        To answer my question, the visualization I chose to create is a bar
+        chart.
+      </p>
     </div>
   );
 }
 
 export default App;
+
+/*<svg width={chartSize} height={chartSize}>
+        <text x={0} y={20} fontSize={20}>
+          To answer my question, the visualization I chose to create is a bar
+          chart.
+        </text>
+      </svg>*/
