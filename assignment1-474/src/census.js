@@ -457,5 +457,5 @@ export default [
   },
   {
     Sex: ""
-  }
+  },
 ];
