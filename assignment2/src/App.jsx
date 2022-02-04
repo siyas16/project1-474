@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "./logo.svg";
+import { AxisLeft, AxisBottom } from "@visx/axis";
 import "./App.css";
 import crimes from "./hatecrimes";
 import { scaleLinear, extent, line } from "d3";
@@ -31,6 +32,7 @@ function App() {
 
   const allStates = [];
   const dems2016totals = {};
+  const allPos = [];
   dems2016.forEach((counties) => {
     if (!dems2016totals[counties.state]) {
       dems2016totals[counties.state] = parseInt(counties.candidatevotes);
@@ -44,6 +46,8 @@ function App() {
   reps2016.forEach((counties) => {
     if (!reps2016totals[counties.state]) {
       reps2016totals[counties.state] = parseInt(counties.candidatevotes);
+      allStates.push(counties.state);
+      allPos.push(counties.state_po);
     } else {
       var votes = parseInt(counties.candidatevotes);
       reps2016totals[counties.state] += votes;
@@ -173,7 +177,6 @@ function App() {
   data2000.forEach((counties) => {
     if (!totals2000[counties.state]) {
       totals2000[counties.state] = parseInt(counties.candidatevotes);
-      allStates.push(counties.state);
     } else {
       var votes = parseInt(counties.candidatevotes);
       totals2000[counties.state] += votes;
@@ -265,52 +268,62 @@ function App() {
     }
   });
 
-  console.log(allYearsTotals);
-  // const _extent = extent(allYearsTotals);
-  /*const _scaleY = scaleLinear()
-    .domain([0, 500000])
-    .range([500 - 20, 20]);
-  const _scaleLine = scaleLinear()
-    .domain([0, 11])
-    .range([20, 500 - 20]);
+  const cal2020 =
+    lib2020totals["CALIFORNIA"] +
+    dems2020totals["CALIFORNIA"] +
+    reps2020totals["CALIFORNIA"] +
+    green2020totals["CALIFORNIA"] +
+    other2020totals["CALIFORNIA"];
 
-  const _lineMaker = line()
-    .x((d, i) => {
-      return _scaleLine(i);
-    })
-    .y((d) => {
-      return _scaleY(d);
-    }); */
+  totals2020["CALIFORNIA"] = cal2020;
+
+  /*console.log(lib2020totals["MICHIGAN"]);
+  console.log(dems2020totals["MICHIGAN"]);
+  console.log(reps2020totals["MICHIGAN"]);
+  console.log(green2020totals["MICHIGAN"]);
+  console.log(other2020totals["MICHIGAN"]);
+
+  console.log(lib2020totals["FLORIDA"]);
+  console.log(dems2020totals["FLORIDA"]);
+  console.log(reps2020totals["FLORIDA"]);
+  console.log(green2020totals["FLORIDA"]);
+  console.log(other2020totals["FLORIDA"]); */
 
   return (
     <div className="App">
       <div style={{ marginBottom: 200 }}>
-        <h1>2016-2020 US Presidential Election Data</h1>
+        <h1>2000-2020 US Presidential Election Data</h1>
 
-        <svg width={1000} height={70}>
+        <svg width={1000} height={100}>
+          <text x="380" y="15" font-size={20} font-weight="bold">
+            Distribution of County Votes 2016
+          </text>
           {data2016.map((county, i) => {
             return (
               <line
                 key={i}
                 x1={county.totalvotes}
-                y1={20}
+                y1={30}
                 x2={county.totalvotes}
-                y2={70}
+                y2={80}
                 style={{ fill: "none", stroke: "black" }}
               />
             );
           })}
         </svg>
 
-        <svg width={1000} height={70}>
+        <svg width={1000} height={90}>
+          <text x="380" y="15" font-size={20} font-weight="bold">
+            Distribution of County Votes 2020
+          </text>
           {data2020.map((county, i) => {
             return (
               <line
                 key={i}
                 x1={county.totalvotes}
-                y1={20}
+                y1={30}
                 x2={county.totalvotes}
-                y2={70}
+                y2={80}
                 style={{ fill: "none", stroke: "black" }}
               />
             );
@@ -318,12 +331,15 @@ function App() {
         </svg>
 
         <svg width={1100} height={300}>
+          <text x="300" y="50" font-size={20} font-weight="bold">
+            Percentage of State Votes for Democratic Candidate 2016 vs 2020
+          </text>
           {allStates.map((num, i) => {
             const rectHeight = (dems2016totals[num] / totals2016[num]) * 100;
             return (
               <rect
                 x={20 + i * 20}
-                y={200 - rectHeight}
+                y={180 - rectHeight}
                 width={10}
                 height={rectHeight}
                 fill={"steelblue"}
@@ -336,16 +352,28 @@ function App() {
             return (
               <rect
                 x={30 + i * 20}
-                y={200 - rectHeight}
+                y={180 - rectHeight}
                 width={8}
                 height={rectHeight}
                 fill={"navy"}
               />
             );
           })}
+
+          {allPos.map((state, i) => {
+            return (
+              <text x={20 + i * 20} y={190} fill={"black"} font-size={11}>
+                {" "}
+                {state}{" "}
+              </text>
+            );
+          })}
         </svg>
 
-        <svg width={1100} height={300}>
+        <svg width={1100} height={250}>
+          <text x="300" y="50" font-size={20} font-weight="bold">
+            Percentage of State Votes for Republican Candidate 2016 vs 2020
+          </text>
           {allStates.map((num, i) => {
             const rectHeight = (reps2016totals[num] / totals2016[num]) * 100;
             return (
@@ -371,102 +399,201 @@ function App() {
               />
             );
           })}
+
+          {allPos.map((state, i) => {
+            return (
+              <text x={20 + i * 20} y={210} fill={"black"} font-size={10}>
+                {" "}
+                {state}{" "}
+              </text>
+            );
+          })}
         </svg>
 
-        <svg width={500} height={500}>
+        <svg width={500} height={300}>
+          <text x="10" y="20" font-size={18} font-weight="bold">
+            Battleground State Party Vote Distribution: Michigan
+          </text>
           <rect
             x={10}
-            y={20}
-            width={
-              (dems2020totals["CALIFORNIA"] / totals2020["CALIFORNIA"]) * 100 +
-              100
-            }
-            height={20}
+            y={40}
+            width={dems2020totals["MICHIGAN"] / 10000}
+            height={10}
             fill={"black"}
           />
 
           <rect
             x={10}
-            y={60}
-            width={
-              (reps2020totals["CALIFORNIA"] / totals2020["CALIFORNIA"]) * 100 +
-              100
-            }
-            height={20}
+            y={80}
+            width={reps2020totals["MICHIGAN"] / 10000}
+            height={10}
             fill={"black"}
           />
 
           <rect
             x={10}
-            y={100}
-            width={
-              (green2020totals["CALIFORNIA"] / totals2020["CALIFORNIA"]) * 100 +
-              100
-            }
-            height={20}
+            y={120}
+            width={lib2020totals["MICHIGAN"] / 1000}
+            height={10}
             fill={"black"}
           />
 
           <rect
             x={10}
-            y={140}
-            width={
-              (lib2020totals["CALIFORNIA"] / totals2020["CALIFORNIA"]) * 100 +
-              100
-            }
-            height={20}
+            y={160}
+            width={green2020totals["MICHIGAN"] / 1000}
+            height={10}
             fill={"black"}
           />
 
           <rect
             x={10}
-            y={180}
-            width={
-              (other2020totals["CALIFORNIA"] / totals2020["CALIFORNIA"]) * 100 +
-              100
-            }
-            height={20}
-            fill={"black"}
-          />
-
-          <circle
-            cx={
-              (other2020totals["CALIFORNIA"] / totals2020["CALIFORNIA"]) * 100 +
-              129
-            }
-            cy={190}
-            r={20}
+            y={200}
+            width={other2020totals["MICHIGAN"] / 1000}
+            height={10}
             fill={"black"}
           />
         </svg>
 
+        <svg width={600} height={300}>
+          <text x="10" y="20" font-size={18} font-weight="bold">
+            Battleground State Party Vote Distribution: Florida
+          </text>
+
+          <rect
+            x={10}
+            y={40}
+            width={reps2020totals["FLORIDA"] / 10000}
+            height={10}
+            fill={"black"}
+          />
+
+          <rect
+            x={10}
+            y={80}
+            width={dems2020totals["FLORIDA"] / 10000}
+            height={10}
+            fill={"black"}
+          />
+
+          <rect
+            x={10}
+            y={120}
+            width={lib2020totals["FLORIDA"] / 1000}
+            height={10}
+            fill={"black"}
+          />
+
+          <rect
+            x={10}
+            y={160}
+            width={green2020totals["FLORIDA"] / 1000}
+            height={10}
+            fill={"black"}
+          />
+
+          <rect
+            x={10}
+            y={200}
+            width={other2020totals["FLORIDA"] / 1000}
+            height={10}
+            fill={"black"}
+          />
+        </svg>
+
         <svg width={500} height={500}>
+          <text x="100" y="30" font-size={20} font-weight="bold">
+            Number of Voters in the US 2000-2020
+          </text>
           <circle
-            cx={30}
-            cy={allYearsTotals[2000] / 1000000}
+            cx={150}
+            cy={300 - allYearsTotals[2000] / 1000000}
             r={2}
             fill={"black"}
           />
 
+          <line
+            x1={150}
+            y1={300 - allYearsTotals[2000] / 1000000}
+            x2={200}
+            y2={300 - allYearsTotals[2004] / 1000000}
+            style={{ fill: "none", stroke: "black" }}
+          />
+
           <circle
-            cx={60}
-            cy={allYearsTotals[2004] / 1000000}
+            cx={200}
+            cy={300 - allYearsTotals[2004] / 1000000}
             r={2}
             fill={"black"}
           />
 
+          <line
+            x1={200}
+            y1={300 - allYearsTotals[2004] / 1000000}
+            x2={250}
+            y2={300 - allYearsTotals[2008] / 1000000}
+            style={{ fill: "none", stroke: "black" }}
+          />
+
           <circle
-            cx={90}
-            cy={allYearsTotals[2008] / 1000000}
+            cx={250}
+            cy={300 - allYearsTotals[2008] / 1000000}
             r={2}
             fill={"black"}
           />
 
-          <circle cx={120} cy={allYearsTotals[2012]} r={2} fill={"black"} />
+          <line
+            x1={250}
+            y1={300 - allYearsTotals[2008] / 1000000}
+            x2={300}
+            y2={300 - allYearsTotals[2012] / 1000000}
+            style={{ fill: "none", stroke: "black" }}
+          />
 
-          <circle cx={150} cy={allYearsTotals[2016]} r={2} fill={"black"} />
+          <circle
+            cx={300}
+            cy={300 - allYearsTotals[2012] / 1000000}
+            r={2}
+            fill={"black"}
+          />
 
-          <circle cx={180} cy={allYearsTotals[2020]} r={2} fill={"black"} />
+          <line
+            x1={300}
+            y1={300 - allYearsTotals[2012] / 1000000}
+            x2={350}
+            y2={300 - allYearsTotals[2016] / 1000000}
+            style={{ fill: "none", stroke: "black" }}
+          />
+
+          <circle
+            cx={350}
+            cy={300 - allYearsTotals[2016] / 1000000}
+            r={2}
+            fill={"black"}
+          />
+
+          <line
+            x1={350}
+            y1={300 - allYearsTotals[2016] / 1000000}
+            x2={400}
+            y2={300 - allYearsTotals[2020] / 1000000}
+            style={{ fill: "none", stroke: "black" }}
+          />
+          <circle
+            cx={400}
+            cy={300 - allYearsTotals[2020] / 1000000}
+            r={2}
+            fill={"black"}
+          />
+
+          {allYears.map((year, i) => {
+            return (
+              <text x={140 + 50 * i} y={250} fill={"black"} font-size={10}>
+                {" "}
+                {year}{" "}
+              </text>
+            );
+          })}
         </svg>
       </div>
     </div>
@@ -486,3 +613,16 @@ export default App;
               />
             );
           })} */
+
+/* <circle
+            cx={
+              (other2020totals["CALIFORNIA"] / totals2020["CALIFORNIA"]) * 100 +
+              129
+            }
+            cy={190}
+            r={20}
+            fill={"black"}
+          /> */
+
+/*             width={(dems2020totals["MICHIGAN"] / totals2020["MICHIGAN"]) * 1000}
+ */
