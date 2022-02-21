@@ -106,6 +106,17 @@ function App() {
     }
   });
 
+  /* const other2020 = [];
+  data2020.forEach((counties, i) => {
+    if (
+      counties.party == "OTHER" ||
+      counties.party == "LIBERTARIAN" ||
+      counties.party == "GREEN"
+    ) {
+      other2020.push(counties);
+    }
+  }); */
+
   const dems2020totals = {};
   dems2020.forEach((counties) => {
     if (!dems2020totals[counties.state]) {
