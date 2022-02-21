@@ -329,7 +329,6 @@ function MapsExample(props) {
       }
     }
   }
-  console.log(percentDem);
 
   return (
     <div>
@@ -437,5 +436,3 @@ function MapsExample(props) {
 }
 
 export default MapsExample;
-
-// style={{ border: "1px solid black" }}
