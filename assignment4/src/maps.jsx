@@ -8,17 +8,9 @@ import states from "./states";
 import { interpolateRdBu } from "d3-scale-chromatic";
 import Popup from "./popup";
 
-// const _worldTopo = topojson.feature(USATopo, USATopo.objects.counties); // counties
 const _worldTopo = topojson.feature(states, states.objects.states); // states
 const stateShapes = _worldTopo.features;
 
-/* const usacounties = [];
-USATopo.objects.counties.geometries.forEach((county) => {
-  const newcounty = county.properties.name.toLowerCase();
-  if (!usacounties[newcounty]) {
-    usacounties.push(newcounty);
-  }
-}); */
 const data2004 = [];
 elections2.forEach((counties, i) => {
   if (counties.year == 2004) {
@@ -331,10 +323,10 @@ function MapsExample(props) {
     }
   }
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [currentlySelected, setCurrentlySelected] = useState(null);
 
   const togglePopup = () => {
-    setIsOpen(!isOpen);
+    setCurrentlySelected(!currentlySelected);
   };
 
   return (
@@ -346,7 +338,10 @@ function MapsExample(props) {
               <path
                 key={i}
                 onClick={
-                  togglePopup
+                  () => {
+                    togglePopup;
+                    setCurrentlySelected(shape.properties.name);
+                  }
                   //console.log(shape.properties.name);
                 }
                 d={path(shape)}
@@ -399,7 +394,13 @@ function MapsExample(props) {
         </text>
       </svg>
 
-      {isOpen && <Popup handleClose={togglePopup} />}
+      {currentlySelected && (
+        <Popup
+          handleClose={togglePopup}
+          stateName={currentlySelected}
+          yearSelected={props.yearSelected}
+        />
+      )}
 
       <svg width={500} height={310}>
         <g>
@@ -408,7 +409,8 @@ function MapsExample(props) {
               <path
                 key={i}
                 onClick={() => {
-                  console.log(shape);
+                  togglePopup;
+                  setCurrentlySelected(shape.properties.name);
                 }}
                 d={path2(shape)}
                 fill={interpolateRdBu(
@@ -422,6 +424,14 @@ function MapsExample(props) {
         </g>
       </svg>
 
+      {currentlySelected && (
+        <Popup
+          handleClose={togglePopup}
+          stateName={currentlySelected}
+          yearSelected={props.yearSelected}
+        />
+      )}
+
       <svg width={300} height={310}>
         <g>
           {stateShapes.map((shape, i) => {
@@ -429,7 +439,8 @@ function MapsExample(props) {
               <path
                 key={i}
                 onClick={() => {
-                  console.log(shape);
+                  togglePopup;
+                  setCurrentlySelected(shape.properties.name);
                 }}
                 d={path3(shape)}
                 fill={interpolateRdBu(
@@ -442,8 +453,18 @@ function MapsExample(props) {
           })}
         </g>
       </svg>
+
+      {currentlySelected && (
+        <Popup
+          handleClose={togglePopup}
+          stateName={currentlySelected}
+          yearSelected={props.yearSelected}
+        />
+      )}
     </div>
   );
 }
 
 export default MapsExample;
+
+//       {currentlySelected && <Popup handleClose={togglePopup} />}

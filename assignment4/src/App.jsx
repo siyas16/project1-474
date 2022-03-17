@@ -10,12 +10,6 @@ function App() {
 
   const years = [2004, 2008, 2012, 2016, 2020];
 
-  const [isOpen, setIsOpen] = useState(false);
-
-  const togglePopup = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <div className="App">
       <h1>Which party won each state in {selectedYear}?</h1>
