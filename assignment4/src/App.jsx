@@ -27,7 +27,10 @@ function App() {
           );
         })}
       </select>
-
+      <label>
+        . Then, click a state to see distribution of democratic vs republican
+        votes for each county in the state.
+      </label>
       <MapsExample yearSelected={selectedYear} />
     </div>
   );

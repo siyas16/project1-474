@@ -360,7 +360,7 @@ function MapsExample(props) {
           y={400}
           width={30}
           height={10}
-          fill={interpolateRdBu(0.25)}
+          fill={interpolateRdBu(0.3)}
         />
         <rect
           x={80}
@@ -381,7 +381,7 @@ function MapsExample(props) {
           y={400}
           width={30}
           height={10}
-          fill={interpolateRdBu(0.75)}
+          fill={interpolateRdBu(0.7)}
         />
         <text x={40} y={390} fill={"black"} fontSize={15} fontWeight="bold">
           Color Scale:

@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@visx/axis": "^2.6.0",
     "@visx/scale": "^2.2.2",
     "d3": "^7.3.0",
     "d3-legend": "^1.0.0",
